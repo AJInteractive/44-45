@@ -1,10 +1,8 @@
 (function($) {
   // variables
   var selected = [];
-
   // event listenters
   $(".faces ul li img").on("click", findSelected);
-
   //custom functions
   function findSelected(e) {
     var num = $(e.target).attr("id").split("")[1];
@@ -19,11 +17,13 @@
         //-1 mean update both elements
         display(-1);
         calculate();
+        $('.footer').show();
         return;
       } else {
         $(e.target).parent().removeClass("active");
         selected = [];
         $(".data").hide();
+        $('.footer').show();
         return;
       }
     }
@@ -41,11 +41,22 @@
   }
 
   function display(num) {
+    console.log(selected[0]);
+    console.log(selected[1]);
+    if (selected[0]<selected[1]){
+      console.log("left smaller");
     if (num == -1) {
+      updateSide("left", selected[1]);
+      updateSide("right", selected[0]);
+    } else {
+      console.log("left smaller and not blank");
       updateSide("right", selected[0]);
       updateSide("left", selected[1]);
-    } else {
-      updateSide("left", selected[1]);
+    }
+    }
+    else{
+      updateSide("right", selected[1]);
+      updateSide("left", selected[0]);
     }
     $(".data").show();
   }
