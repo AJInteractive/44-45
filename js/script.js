@@ -44,12 +44,10 @@
     console.log(selected[0]);
     console.log(selected[1]);
     if (selected[0]<selected[1]){
-      console.log("left smaller");
     if (num == -1) {
       updateSide("left", selected[1]);
       updateSide("right", selected[0]);
     } else {
-      console.log("left smaller and not blank");
       updateSide("right", selected[0]);
       updateSide("left", selected[1]);
     }
