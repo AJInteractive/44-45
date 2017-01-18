@@ -6,6 +6,7 @@
   //custom functions
   function findSelected(e) {
     var num = $(e.target).attr("id").split("")[1];
+    num = Number(num);
     if (selected.length == 0) {
       selected.push(num);
       $(e.target).parent().addClass("active");
@@ -13,6 +14,7 @@
     } else if (selected.length == 1) {
       if (selected.indexOf(num) <= -1) {
         selected.push(num);
+        selected.sort();
         $(e.target).parent().addClass("active");
         //-1 mean update both elements
         display(-1);
@@ -27,9 +29,16 @@
         return;
       }
     }
+
     if (selected.indexOf(num) <= -1) {
-      $("#p" + selected[1]).parent().removeClass("active");
-      selected[1] = num;
+      if(num > selected[0]){
+        $("#p" + selected[1]).parent().removeClass("active");
+        selected[1] = num;
+      } else{
+        $("#p" + selected[0]).parent().removeClass("active");
+        selected[0] = num;
+      }
+      selected.sort();
       $(e.target).parent().addClass("active");
       display(num);
       calculate();
@@ -41,21 +50,8 @@
   }
 
   function display(num) {
-    console.log(selected[0]);
-    console.log(selected[1]);
-    if (selected[0]<selected[1]){
-    if (num == -1) {
-      updateSide("left", selected[1]);
-      updateSide("right", selected[0]);
-    } else {
-      updateSide("right", selected[0]);
-      updateSide("left", selected[1]);
-    }
-    }
-    else{
-      updateSide("right", selected[1]);
-      updateSide("left", selected[0]);
-    }
+    updateSide("left", selected[1]);
+    updateSide("right", selected[0]);
     $(".data").show();
   }
 
