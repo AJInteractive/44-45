@@ -222,3 +222,14 @@ h6 {
     color: #fb9d04;
     font-size: 1.5em;
 }
+
+#names.fixed{
+  background: #fff;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 100;
+  border-bottom: 1px solid #ddd;
+  height: 150px;
+}

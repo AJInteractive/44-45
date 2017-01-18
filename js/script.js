@@ -1,8 +1,11 @@
 (function($) {
   // variables
   var selected = [];
+
   // event listenters
   $(".faces ul li img").on("click", findSelected);
+  $(window).scroll(makeNamesFixed);
+
   //custom functions
   function findSelected(e) {
     var num = $(e.target).attr("id").split("")[1];
@@ -218,6 +221,15 @@
     .attr("class", foreignAid[1] ? up : down);
   }
 
+  function makeNamesFixed(event){
+      var names = $('#names');
+      var scroll = $(window).scrollTop();
+      if(scroll >= 830){
+        names.addClass('fixed');
+      } else {
+        names.removeClass('fixed');
+      }
+  }
   function Percent(first, second) {
     return [
       (Math.abs(second - first) / Math.abs(first) * 100).toFixed(2),
