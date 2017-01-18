@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/batcave.css" media="screen" title="no title">
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Al Jazeera" />
+    <meta property="og:title" content="What has each president left for the next one?" />
+    <meta property="og:description" content="What has each president left for the next one?" />
+    <meta property="title" content="What has each president left for the next one?" />
+    <meta property="description" content="What has each president left for the next one?" />
+    <meta property="og:type" content="article.other" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@AJEnglish" />
+    <meta property="twitter:title" content="What has each president left for the next one?" />
+    <meta property="twitter:description" content="What has each president left for the next one?" />
+    <meta property="image" content="http://interactive.aljazeera.com/aje/2017/jerusalem-2016-home-demolitions/outside.jpg" />
+    <meta property="twitter:image:src" content="http://interactive.aljazeera.com/aje/2017/jerusalem-2016-home-demolitions/outside.jpg" />
+    <meta property="og:image" content="http://interactive.aljazeera.com/aje/2017/jerusalem-2016-home-demolitions/outside.jpg" />
+    <link rel="canonical" href="http://interactive.aljazeera.com/aje/2017/jerusalem-2016-home-demolitions/index.html" />
+    <meta name="image" content="http://interactive.aljazeera.com/aje/2017/jerusalem-2016-home-demolitions/outside.jpg">
+    <meta name="title" content="What has each president left for the next one?">
+    <meta name="description" content="What has each president left for the next one?">
+
+    <title>What One President Has Left For The Other</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <a class="logolink" href="http://www.aljazeera.com/"><img class="logo" src="images/logo.png"></a>
+    </nav>
+    <div class="container presidents">
+        <div class="row justify-content-md-center heading">
+            <div class="col-md-12 heading-top">
+                <h1>What has each president <br>left for the next one?</h1>
+                <h5>An overview of the America president handover from term to term</h5>
+            </div>
+        </div>
+        <div class="row justify-content-md-center image-buttons">
+            <div class="col-md-12">
+                <h5 class="pickany">PICK ANY TWO TO BEGIN</h5>
+                <h5 class="reset" onclick="reset()"><i class="fa fa-repeat" aria-hidden="true"></i>RESET</h5>
+                <div class="faces">
+                    <ul>
+                        <li><img id="p0" src="images/bushsr.png"></li>
+                        <li><img id="p1" src="images/clinton1.png"></li>
+                        <li><img id="p2" src="images/clinton2.png"></li>
+                        <li><img id="p3" src="images/bush1.png"></li>
+                        <li><img id="p4" src="images/bush2.png"></li>
+                        <li><img id="p5" src="images/obama1.png"></li>
+                        <li><img id="p6" src="images/obama2.png"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container data">
+        <div id='names' class="names row">
+            <div id='name-right' class="col-md-6 col-xs-6">
+                <p>OBAMA</p>
+            </div>
+            <div id='name-left' class="col-md-6 col-xs-6">
+                <p>CLINTON</p>
+            </div>
+        </div>
+
+
+        <div id='population' class="row line-bottom">
+            <div class="col-md-12 text-center issues">
+                <p>POPULATION</p>
+            </div>
+            <div class="col-md-12 text-center percent">
+                <p><span class='glyphicon glyphicon-arrow-up'></span><span id='pop'>17.08</span><span>%</span></p>
+            </div>
+            <div class="numbers right col-md-6 col-xs-6 text-center">
+                <div class="top-value">
+                    <h3><span>307</span><span>m</span></h3>
+                    <span class='label label-default'>2009</span>
+                </div>
+                <div class="bottom-value">
+                    <h3><span>324</span><span>m</span></h3>
+                    <span class='label label-default'>2012</span>
+                </div>
+            </div>
+            <div class="numbers left col-md-6 col-xs-6 text-center">
+                <div class="top-value">
+                    <h3><span>307</span><span>m</span></h3>
+                    <span class='label label-default'>2012</span>
+
+                </div>
+                <div class="bottom-value">
+                    <h3><span>324</span><span>m</span></h3>
+                    <span class='label label-default'>2016</span>
+                </div>
+            </div>
+        </div>
+
+        <div id='gdp' class="row line-bottom">
+            <div class="col-md-12 text-center issues">
+                <p>GDP</p>
+            </div>
+            <div class="col-md-12 text-center percent">
+                <p><span class='glyphicon glyphicon-arrow-up'></span><span id='gdp_percentage'>17.08</span><span>%</span></p>
+            </div>
+            <div class="numbers right col-md-6 col-xs-6 text-center">
+                <div class="top-value">
+                    <h3><span>$</span><span>307</span><span>tr</span></h3>
+                    <span class='label label-default'>2009</span>
+                </div>
+                <div class="bottom-value">
+                    <h3><span>$</span><span>324</span><span>tr</span></h3>
+                    <span class='label label-default'>2012</span>
+                </div>
+            </div>
+            <div class="numbers left col-md-6 col-xs-6 text-center">
+                <div class="top-value">
+                    <h3><span>$</span><span>307</span><span>tr</span></h3>
+                    <span class='label label-default'>2012</span>
+
+                </div>
+                <div class="bottom-value">
+                    <h3><span>$</span><span>324</span><span>tr</span></h3>
+                    <span class='label label-default'>2016</span>
+                </div>
+            </div>
+        </div>
+
+        <div id='inflation' class="row line-bottom">
+            <div class="col-md-12 text-center issues">
+                <p>INFLATION</p>
+            </div>
+            <div class="col-md-12 text-center percent">
+                <p><span class='glyphicon glyphicon-arrow-up'></span><span id='inflation_percentage'>17.08</span><span>%</span></p>
+            </div>
+            <div class="numbers right col-md-6 col-xs-6 text-center">
+                <div class="top-value">
+                    <h3><span>307</span><span>%</span></h3>
+                </div>
+            </div>
+            <div class="numbers left col-md-6 col-xs-6 text-center">
+                <div class="top-value">
+                    <h3><span>307</span><span>%</span></h3>
+                </div>
+            </div>
+            <div class="col-md-12 text-center">
+                <p class='label label-default'>
+                    from 1997-2016, across 5 terms
+                </p>
+            </div>
+        </div>
+
+        <div id='dept' class="row line-bottom">
+            <div class="col-md-12 text-center issues">
+                <p>FEDERAL DEBT</p>
+            </div>
+            <div class="col-md-12 text-center percent">
+                <p><span class='glyphicon glyphicon-arrow-up'></span><span id='dept_percentage'>17.08</span><span>%</span></p>
+            </div>
+            <div class="numbers right col-md-6 col-xs-6 text-center">
+                <div class="top-value">
+                    <h3><span>$</span><span>307</span><span>m</span></h3>
+                    <span class='label label-default'>2009</span>
+                </div>
+                <div class="bottom-value">
+                    <h3><span>$</span><span>324</span><span>m</span></h3>
+                    <span class='label label-default'>2012</span>
+                </div>
+            </div>
+            <div class="numbers left col-md-6 col-xs-6 text-center">
+                <div class="top-value">
+                    <h3><span>$</span><span>307</span><span>m</span></h3>
+                    <span class='label label-default'>2012</span>
+
+                </div>
+                <div class="bottom-value">
+                    <h3><span>$</span><span>324</span><span>m</span></h3>
+                    <span class='label label-default'>2016</span>
+                </div>
+            </div>
+        </div>
+
+        <div id='surplus' class="row line-bottom">
+            <div class="col-md-12 text-center issues">
+                <p>SURPLUS/DEFICIT</p>
+            </div>
+            <div class="col-md-12 text-center percent">
+                <p><span class='glyphicon glyphicon-arrow-up'></span><span id='surplus_percentage'>17.08</span><span>%</span></p>
+            </div>
+            <div class="numbers right col-md-6 col-xs-6 text-center">
+                <div class="top-value">
+                    <h3><span>$</span><span>307</span><span>m</span></h3>
+                    <span class='label label-default'>2009</span>
+                </div>
+                <div class="bottom-value">
+                    <h3><span>$</span><span>324</span><span>m</span></h3>
+                    <span class='label label-default'>2012</span>
+                </div>
+            </div>
+            <div class="numbers left col-md-6 col-xs-6 text-center">
+                <div class="top-value">
+                    <h3><span>$</span><span>307</span><span>m</span></h3>
+                    <span class='label label-default'>2012</span>
+                </div>
+                <div class="bottom-value">
+                    <h3><span>$</span><span>324</span><span>m</span></h3>
+                    <span class='label label-default'>2016</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row line-bottom">
+            <div class="col-md-12 text-center issues">
+                <p>FOREIGN AID</p>
+            </div>
+            <div class="col-md-12 text-center percent">
+                <p><span class='glyphicon glyphicon-arrow-up'></span><span>17.08</span><span>%</span></p>
+            </div>
+        </div>
+
+        <div class="row amounts line-bottom text-center">
+            <div class="col-md-12">
+                <h2>Amounts distributed worldwide per term</h2>
+                <h4>Institutions include</h4>
+                <p>USAID, Department of Denfense, Department of Agriculture Department of Treasury, PeaceCorp, Inter-American Foundation, African Development Foundation, and Department of State</p>
+                <p class='well'>
+                    Current dollar amounts are the actual amounts. Constant dollar amounst are inflation-adjusted values. The constant dollar series allows you to evaluate, on a comparable basis, values that occured at different time periods.
+                </p>
+            </div>
+        </div>
+        <div id='aid' class="row line-bottom">
+          <div class="numbers right col-md-6 col-xs-6 text-center">
+              <div class="top-value">
+                  <h3><span>$</span><span>307</span></h3>
+                  <span class='label label-default'>CONSTANT AMOUNT</span>
+              </div>
+              <div class="bottom-value">
+                  <h3><span>$</span><span>324</span></h3>
+                  <span class='label label-default'>CURRENT AMOUNT</span>
+              </div>
+          </div>
+          <div class="numbers left col-md-6 col-xs-6 text-center">
+              <div class="top-value">
+                  <h3><span>$</span><span>307</span></h3>
+                  <span class='label label-default'>CONSTANT AMOUNT</span>
+              </div>
+              <div class="bottom-value">
+                  <h3><span>$</span><span>324</span></h3>
+                  <span class='label label-default'>CURRENT AMOUNT</span>
+              </div>
+          </div>
+        </div>
+
+        <div id='incarceration' class="row line-bottom">
+            <div class="col-md-12 text-center issues">
+                <p>INCARCERATION</p>
+            </div>
+            <div class="col-md-12 text-center percent">
+                <p><span class='glyphicon glyphicon-arrow-up'></span><span id='incarceration_percentage'>17.08</span><span>%</span></p>
+            </div>
+            <div class="numbers right col-md-6 col-xs-6 text-center">
+                <div class="top-value">
+                    <h3><span>307</span><span>m</span></h3>
+                    <span class='label label-default'>2009</span>
+                </div>
+                <div class="bottom-value">
+                    <h3><span>324</span><span>m</span></h3>
+                    <span class='label label-default'>2012</span>
+                </div>
+            </div>
+            <div class="numbers left col-md-6 col-xs-6 text-center">
+                <div class="top-value">
+                    <h3><span>307</span><span>m</span></h3>
+                    <span class='label label-default'>2012</span>
+                </div>
+                <div class="bottom-value">
+                    <h3><span>324</span><span>m</span></h3>
+                    <span class='label label-default'>2016</span>
+                </div>
+            </div>
+
+            <div class="col-md-12 text-center">
+                <p class='label label-default'>
+                    Total number of people in federal and state correction centers
+                </p>
+            </div>
+        </div>
+        <div id='deportations' class="row line-bottom">
+            <div class="col-md-12 text-center issues">
+                <p>DEPORTATIONS</p>
+            </div>
+            <div class="col-md-12 text-center percent">
+                <p><span class='glyphicon glyphicon-arrow-up'></span><span id='deportations_percentage'>17.08</span><span>%</span></p>
+            </div>
+            <div class="numbers right col-md-6 col-xs-6 text-center">
+                <div class="top-value">
+                    <h3><span>307</span></h3>
+                    <span class='label label-default'>2009</span>
+                </div>
+                <div class="bottom-value">
+                    <h3><span>324</span></h3>
+                    <span class='label label-default'>2012</span>
+                </div>
+            </div>
+            <div class="numbers left col-md-6 col-xs-6 text-center">
+                <div class="top-value">
+                    <h3><span>307</span></h3>
+                    <span class='label label-default'>2012</span>
+                </div>
+                <div class="bottom-value">
+                    <h3><span>324</span></h3>
+                    <span class='label label-default'>2016</span>
+                </div>
+            </div>
+          </div>
+
+            <div id='crimes' class="row line-bottom">
+                <div class="col-md-12 text-center issues">
+                    <p>HATE CRIMES</p>
+                </div>
+                <div class="col-md-12 text-center percent">
+                    <p><span class='glyphicon glyphicon-arrow-up'></span><span id='crimes_percentage'>17.08</span><span>%</span></p>
+                </div>
+                <div class="numbers right col-md-6 col-xs-6 text-center">
+                    <div class="top-value">
+                        <h3><span>307</span></h3>
+                        <span class='label label-default'>2009</span>
+                    </div>
+                    <div class="bottom-value">
+                        <h3><span>324</span></h3>
+                        <span class='label label-default'>2012</span>
+                    </div>
+                </div>
+                <div class="numbers left col-md-6 col-xs-6 text-center">
+                    <div class="top-value">
+                        <h3><span>307</span></h3>
+                        <span class='label label-default'>2012</span>
+                    </div>
+                    <div class="bottom-value">
+                        <h3><span>324</span></h3>
+                        <span class='label label-default'>2016</span>
+                    </div>
+                </div>
+
+
+            <div class="col-md-12 text-center">
+                <p class='label label-default'>
+                  Hate Crime Statistics Act, 28 passed in 1990 and modified in 2009
+                </p>
+            </div>
+        </div>
+
+
+        <div id='shootings' class="row line-bottom">
+            <div class="col-md-12 text-center issues">
+                <p>MASS SHOOTINGS</p>
+            </div>
+            <div class="col-md-12 text-center percent">
+                <p><span class='glyphicon glyphicon-arrow-up'></span><span id='shooting_percentage'>17.08</span><span>%</span></p>
+            </div>
+            <div class="numbers right col-md-6 col-xs-6 text-center">
+                <div class="top-value">
+                    <h3><span>307</span></h3>
+                    <span class='label label-default'>INCIDENTS</span>
+                </div>
+                <div class="bottom-value">
+                    <h3><span>324</span></h3>
+                    <span class='label label-default'>INCIDENTS</span>
+                </div>
+            </div>
+            <div class="numbers left col-md-6 col-xs-6 text-center">
+                <div class="top-value">
+                    <h3><span>307</span></h3>
+                    <span class='label label-default'>VICTIMS</span>
+                </div>
+                <div class="bottom-value">
+                    <h3><span>324</span></h3>
+                    <span class='label label-default'>VICTIMS</span>
+                </div>
+            </div>
+
+
+        <div class="col-md-12 col-xs-12 text-center">
+        </br><p class='well'>2005 FBI definition: Attack in a public place, four or more victims were killed.</br> 2013 Federal investigation of mass shootings lowered that baseline to three or more victims.
+</p>
+        </div>
+    </div>
+
+<div id='intervation' class="row">
+  <div class="col-md-12 col-xs-12">
+    <h3 class='text-orange text-center text-bold'>FOREIGN INTERVENTIONS and COUNTER-TERRORISM STRIKES</h3>
+    <div class="right col-md-6">
+      <p>
+        Bush launched the so-called “war on terror” after the 9-11 attacks on the World Trade Center. The US led the NATO invasion of Afghanistan. During his second term, in 2003, Bush declared war on Iraq, claiming the country was producing weapons of mass destruction.
+      </p>
+      <h6>Drone Strikes in Pakistan</h6>
+      <p>2004 onwards: <b>424</b></p>
+      <h6>Drone Strikes in Somalia</h6>
+      <p>2002 onwards <b>137-157</b></p>
+      <h6>Drone Strikes in Yemen</h6>
+      <p>2007 onwards: <b>32-36</b></p>
+    </div>
+    <div class="left col-md-6">
+      <p>
+        Bush launched the so-called “war on terror” after the 9-11 attacks on the World Trade Center. The US led the NATO invasion of Afghanistan. During his second term, in 2003, Bush declared war on Iraq, claiming the country was producing weapons of mass destruction.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <h1>Produced @AJLabs</h1>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <a href="https://www.facebook.com/aljazeera/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/ajlabs"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footer-widgets">
+        <div class="container">
+            <div class="row footer">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <h6>Produced by</h6>
+                    <h1>Alia Chughtai</h1>
+                    <h6>Additional Research</h6>
+                    <h1>Sarah Munir</h1>
+                    <h6>Development</h6>
+                    <h1>Umair Khan Jadoon</h1>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <img src="images/footer-logo.png">
+                    <h6 class="footer-text">© 2016 Al Jazeera Media Network. All rights reserved.</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="https://npmcdn.com/bootstrap@4.0.0-alpha.5/dist/js/bootstrap.min.js"></script>
+    <script src="sticky/jquery.sticky.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="papaparse/papaparse.min.js"></script>
+    <script src="https://use.fontawesome.com/919d368b31.js"></script>
+    <script src="js/data.js" charset="utf-8"></script>
+    <script src="js/script.js" charset="utf-8"></script>
+    <!-- <script src="main.js"></script> -->
+    <!--GOOGLE ANALYTICS AJE -->
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-1615344-7', {
+            'allowAnchor': true
+        });
+        ga('send', 'pageview', {
+            'page': location.pathname + location.search + location.hash
+        });
+    </script>
+    <!--CHARTBEAT AJE -->
+    <script type='text/javascript'>
+        var _sf_async_config = {};
+        /** CONFIGURATION START **/
+        _sf_async_config.uid = 3291;
+        _sf_async_config.domain = 'aljazeera.com';
+        _sf_async_config.useCanonical = true;
+        _sf_async_config.sections = 'AJ Labs';
+        _sf_async_config.authors = 'AJ Labs';
+        _sf_async_config.title = "A record year of home demolitions in East Jerusalem";
+        /** CONFIGURATION END **/
+        (function() {
+            function loadChartbeat() {
+                window._sf_endpt = (new Date()).getTime();
+                var e = document.createElement('script');
+                e.setAttribute('language', 'javascript');
+                e.setAttribute('type', 'text/javascript');
+                e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+                document.body.appendChild(e);
+            }
+            var oldonload = window.onload;
+            window.onload = (typeof window.onload != 'function') ?
+                loadChartbeat : function() {
+                    oldonload();
+                    loadChartbeat();
+                };
+        })();
+    </script>
+
+</body>
+
+</html>
