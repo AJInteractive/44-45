@@ -223,8 +223,9 @@
 
   function makeNamesFixed(event){
       var names = $('#names');
+      var popid=$("#population");
       var scroll = $(window).scrollTop();
-      if(scroll >= 830){
+      if(scroll >= popid.offset().top){
         names.addClass('fixed');
       } else {
         names.removeClass('fixed');
