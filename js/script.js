@@ -52,7 +52,7 @@
 
   function updateSide(side, president) {
     var p = data[president];
-    $("#names #name-" + side + " p").text(p.name);
+    $("#names #name-" + side + " h4").text(p.name);
     $("#population ." + side + " .top-value h3 span:first-child").text(
       p.populationstart
     );

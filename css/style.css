@@ -1,0 +1,218 @@
+.footer {
+    color: #ffffff;
+    font-family: HelveticaNeueLTPro-Bd;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 10px;
+    background-color:#666666;
+    display:none;
+}
+
+ul{
+  padding:0;
+  margin:0;
+}
+
+.names h4{
+  font-weight:900;
+  margin-top:60px;
+}
+
+.imagelabel{
+  display: block;
+  line-height: 150%;
+  font-weight: 100;
+}
+
+.activePresident {
+    transform: scale(1.30);
+    filter: alpha(opacity=1.0) !important;
+    opacity: 1.0 !important;
+}
+
+.container.data {
+    display: none;
+}
+
+.faces ul li:hover img {
+    transform: scale(1.30);
+    filter: alpha(opacity=1);
+    opacity: 1;
+}
+
+.faces ul li.active img {
+    transform: scale(1.30);
+    filter: alpha(opacity=1);
+    opacity: 1;
+}
+
+.image-buttons h5 {
+    font-family: HelveticaNeueLTPro-Th;
+    text-align: center;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.row.image-buttons {
+    margin-top: 80px;
+}
+
+.faces ul {
+    list-style: none;
+}
+
+
+.faces ul li img {
+    width: 100px;
+    margin: 15px;
+    transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    filter: alpha(opacity=50);
+    opacity: 0.7;
+}
+
+
+.row.title {
+    margin-top: 40px;
+}
+
+.year-top, .year-bottom {
+    font-family: HelveticaNeueLTPro-Bd;
+    text-align: center;
+    padding-left: 2px;
+}
+
+.year-bottom {
+    border-top: 1px solid #666667;
+    height: 17px;
+}
+
+.year-top {
+    height: 18px;
+    padding-top: 1px;
+}
+
+.name-sep.col-aj {
+    border-bottom: 1px solid #666667;
+    height: 20px;
+}
+
+.row.simple {
+    margin-top: 50px;
+}
+
+.simple h1, .simple span {
+    display: inline-block;
+}
+
+.simple .top-value {
+    border-bottom: 1px solid #666667;
+    width: 100%;
+    float: left;
+    min-height: 53px;
+}
+
+.simple .bottom-value {
+    min-height: 53px;
+}
+
+
+.label .seperator {
+    width: 30px;
+    float: left;
+    height: 10px;
+    border-bottom: 1px solid #666667;
+}
+
+.label-title {
+    width: 159px;
+    float: left;
+    border: 1px solid #666667;
+    margin-top: 14px;
+    background: #fff;
+    position: relative;
+    z-index: 10000;
+}
+
+.simple .label-title h6 {
+    color: #ff6600 !important;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 4px;
+    font-family: HelveticaNeueLTPro-Bd;
+}
+
+
+.row.dashed-seperator {
+    height: 10px;
+    border-bottom: 1px dashed #ff9900;
+    width: 654px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin: 0 auto;
+}
+
+.issues {
+    color: #ff6600 !important;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 4px;
+    font-family: HelveticaNeueLTPro-Bd;
+}
+
+.numbers h3 {
+    font-family: HelveticaNeueLTPro-Bd;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.issues p {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: HelveticaNeueLTPro-Bd;
+}
+
+.percent {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.percent span.glyphicon {
+    color: #ff6600;
+}
+
+.line-bottom {
+    padding-bottom: 50px;
+    border-bottom: 1px dashed #ff9900;
+}
+
+.faces ul {
+    text-align: center;
+}
+
+.faces ul li {
+    display: inline-block;
+}
+
+.numbers h3 span:nth-child(3) {
+    font-size: 0.5em;
+    margin-left: 2px;
+}
+
+.intervations div p:first-child {
+    color: #ff6600;
+    font-size: 1.5em;
+}
+
+h6 {
+    color: #fb9d04;
+    font-size: 1.5em;
+}

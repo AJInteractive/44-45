@@ -69,7 +69,7 @@ var data = [
         "intervation": "Clashes between US forces and armed groups continued in Somalia. In 1995, US forces targeted Bosnian Serbs who had been attacking UN safe zones. American peacekeepers were deployed later in the year to Bosnia to uphold the Dayton Peace agreement. Clinton ordered missile strikes on al-Qaeda targets in Afghanistan and Sudan in 1998 during Operation Infinite Reach in reprisal for attacks on US embassies in Kenya and Tanzania. Clinton authorised the use of US forces in a NATO bombing raid on Yugoslavia after human rights violations were committed against Albanians in Kosovo. At the end of 1998, Clinton launched a four-day bombing campaign in Iraq. Between 1999 and 2000, the US – along with Britain – attacked Iraqi air defences more than 200 times."
     },
     {
-        "name": "GEORGE BUSH JR (2001-2005)",
+        "name": "GEORGE W. BUSH (2001-2005)",
         "populationstart": 286,
         "populartionend": 296,
         "gdpstart": 12.68,
@@ -94,7 +94,7 @@ var data = [
         "intervation": "Bush launched the so-called “war on terror” after the 9-11 attacks on the World Trade Center. The US led the NATO invasion of Afghanistan. During his second term, in 2003, Bush declared war on Iraq, claiming the country was producing weapons of mass destruction."
     },
     {
-        "name": "GEORGE BUSH JR (2005-2009)",
+        "name": "GEORGE W. BUSH (2005-2009)",
         "populationstart": 296,
         "populartionend": 307,
         "gdpstart": 14.20,
