@@ -167,10 +167,11 @@
       first.deportationend,
       second.deportationend
     );
+    var foreignAid = Percent(first.aidconstant, second.aidconstant);
     var crimes_percentage = Percent(first.crimesend, second.crimesend);
     var shooting_percentage = Percent(
-      first.shootingsvictims,
-      second.shootingsvictims
+      first.shootingsincidents,
+      second.shootingsincidents
     );
 
     var up = "glyphicon glyphicon-arrow-up";
@@ -211,6 +212,10 @@
       .text(shooting_percentage[0])
       .prev()
       .attr("class", shooting_percentage[1] ? up : down);
+    $("#foreignAid")
+    .text(foreignAid[0])
+    .prev()
+    .attr("class", foreignAid[1] ? up : down);
   }
 
   function Percent(first, second) {
