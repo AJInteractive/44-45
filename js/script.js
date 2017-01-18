@@ -57,7 +57,7 @@
 
   function updateSide(side, president) {
     var p = data[president];
-    $("#names #name-" + side + " h4").text(p.name);
+    $("#names #name-" + side + " h4").html(p.name);
     $("#population ." + side + " .top-value h3 span:first-child").text(
       p.populationstart
     );
@@ -157,7 +157,7 @@
     );
     var gdp_percentage = Percent(first.gdpend, second.gdpend);
     var dept_percentage = Percent(first.deptend, second.deptend);
-    var inflation_percentage = Percent(first.inflation, second.inflation);
+    var inflation_percentage = [Math.abs(first.inflation - second.inflation),first.inflation < second.inflation];
     var surplus_percentage = Percent(first.surplusend, second.surplusend);
     var incarceration_percentage = Percent(
       first.incarcerationend,
@@ -186,7 +186,7 @@
     $("#inflation_percentage")
       .text(inflation_percentage[0])
       .prev()
-      .attr("class", inflation_percentage[0] ? up : down);
+      .attr("class", inflation_percentage[1] ? up : down);
     $("#dept_percentage")
       .text(dept_percentage[0])
       .prev()
