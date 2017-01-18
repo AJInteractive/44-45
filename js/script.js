@@ -180,7 +180,7 @@
     );
 
     var up = "glyphicon glyphicon-arrow-up";
-    var down = "glyphicon glyphicon-arrow-up";
+    var down = "glyphicon glyphicon-arrow-down";
     $("#pop")
       .text(population_percentage[0])
       .prev()
