@@ -159,7 +159,7 @@ ul{
     margin-bottom: 0px;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-top: 4px;
+    margin-top: 20px;
 }
 
 .numbers h3 {
@@ -218,8 +218,10 @@ ul{
 }
 
 h6 {
-    color: #fb9d04;
+    color: #000000;
     font-size: 1.5em;
+    font-family:Georgia-Italic;
+    font-weight:900;
 }
 
 /*#names.fixed{
