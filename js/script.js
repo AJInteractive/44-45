@@ -4,7 +4,7 @@
 
   // event listenters
   $(".faces ul li img").on("click", findSelected);
-  $(window).scroll(makeNamesFixed);
+  // $(window).scroll(makeNamesFixed);
 
   //custom functions
   function findSelected(e) {
@@ -89,11 +89,11 @@
       Number(p.surplusend).toFixed(2)
     );
     $("#aid ." + side + " .top-value h3 span:nth-child(2)").text(
-      commas(Number(p.aidconstant).toFixed(2))
+      commas(Number(p.aidconstant).toFixed(0))
     );
     //constant
     $("#aid ." + side + " .bottom-value h3 span:nth-child(2)").text(
-      commas(Number(p.aidcurrent).toFixed(2))
+      commas(Number(p.aidcurrent).toFixed(0))
     );
     //current
     $("#incarceration ." + side + " .top-value h3 span:first-child").text(
@@ -221,16 +221,20 @@
     .attr("class", foreignAid[1] ? up : down);
   }
 
-  function makeNamesFixed(event){
-      var names = $('#names');
-      var popid=$("#population");
-      var scroll = $(window).scrollTop();
-      if(scroll >= popid.offset().top){
-        names.addClass('fixed');
-      } else {
-        names.removeClass('fixed');
-      }
-  }
+  // function makeNamesFixed(event){
+  //     var names = $('#names');
+  //     var popid=$("#name-right").offset().top;
+  //
+  //     var scroll = $(window).scrollTop();
+  //     console.log("scroll"+scroll);
+  //     console.log("popid"+popid);
+  //     console.log("orig"+originalpopid);
+  //     if(scroll >= popid){
+  //       names.addClass('fixed');
+  //     } else {
+  //       names.removeClass('fixed');
+  //     }
+  // }
   function Percent(first, second) {
     return [
       (Math.abs(second - first) / Math.abs(first) * 100).toFixed(2),
