@@ -1,10 +1,10 @@
 data=[
     {
-        "name": "GEORGE H. W. BUSH <br>\n(1989-1992)",
+        "name": "GEORGE H. W. BUSH <br>\n(1989-1993)",
         "startyear": 1989,
         "endyear": 1992,
         "populationstart": 247,
-        "populartionend": 256,
+        "populartionend": 260,
         "gdpstart": 8.78,
         "gdpend": 9.52,
         "inflation": 13,
@@ -25,11 +25,11 @@ data=[
         "intervation": "In Operation Just Cause in 1989, 24,000 American troops were ordered into Panama to overthrow Panamanian leader, General Manuel Noriega. Bush Sr also authorised the use of military power following the 1990 Iraq invasion of Kuwait. During the Somali civil war, the Bush Sr administration sent forces to protect humanitarian aid supply lines in the famine-stricken nation. "
     },
     {
-        "name": "BILL CLINTON <br>\n(1993-1996)",
+        "name": "BILL CLINTON <br>\n(1993-1997)",
         "startyear": 1993,
         "endyear": 1996,
         "populationstart": 260,
-        "populartionend": 269,
+        "populartionend": 273,
         "gdpstart": 9.52,
         "gdpend": 11.03,
         "inflation": 9,
@@ -50,11 +50,11 @@ data=[
         "intervation": "Clashes between US forces and armed groups continued in Somalia. In 1995, US forces targeted Bosnian Serbs who had been attacking UN safe zones. American peacekeepers were deployed later in the year to Bosnia to uphold the Dayton Peace agreement. Clinton ordered missile strikes on al-Qaeda targets in Afghanistan and Sudan in 1998 during Operation Infinite Reach in reprisal for attacks on US embassies in Kenya and Tanzania. Clinton authorised the use of US forces in a NATO bombing raid on Yugoslavia after human rights violations were committed against Albanians in Kosovo. At the end of 1998, Clinton launched a four-day bombing campaign in Iraq. Between 1999 and 2000, the US – along with Britain – attacked Iraqi air defences more than 200 times."
     },
     {
-        "name": "BILL CLINTON <br>\n(1997-2000)",
+        "name": "BILL CLINTON <br>\n(1997-2001)",
         "startyear": 1997,
         "endyear": 2000,
         "populationstart": 273,
-        "populartionend": 282,
+        "populartionend": 285,
         "gdpstart": 11.03,
         "gdpend": 12.68,
         "inflation": 7,
@@ -75,11 +75,11 @@ data=[
         "intervation": "Clashes between US forces and armed groups continued in Somalia. In 1995, US forces targeted Bosnian Serbs who had been attacking UN safe zones. American peacekeepers were deployed later in the year to Bosnia to uphold the Dayton Peace agreement. Clinton ordered missile strikes on al-Qaeda targets in Afghanistan and Sudan in 1998 during Operation Infinite Reach in reprisal for attacks on US embassies in Kenya and Tanzania. Clinton authorised the use of US forces in a NATO bombing raid on Yugoslavia after human rights violations were committed against Albanians in Kosovo. At the end of 1998, Clinton launched a four-day bombing campaign in Iraq. Between 1999 and 2000, the US – along with Britain – attacked Iraqi air defences more than 200 times."
     },
     {
-        "name": "GEORGE W. BUSH <br>\n(2001-2004)",
+        "name": "GEORGE W. BUSH <br>\n(2001-2005)",
         "startyear": 2001,
         "endyear": 2004,
         "populationstart": 285,
-        "populartionend": 293,
+        "populartionend": 295,
         "gdpstart": 12.68,
         "gdpend": 14.23,
         "inflation": 10,
@@ -102,11 +102,11 @@ data=[
         "intervation": "Bush launched the so-called “war on terror” after the 9-11 attacks on the World Trade Center. The US led the NATO invasion of Afghanistan. During his second term, in 2003, Bush declared war on Iraq, claiming the country was producing weapons of mass destruction."
     },
     {
-        "name": "GEORGE W. BUSH <br>\n(2005-2008)",
+        "name": "GEORGE W. BUSH <br>\n(2005-2009)",
         "startyear": 2005,
         "endyear": 2008,
         "populationstart": 295,
-        "populartionend": 304,
+        "populartionend": 307,
         "gdpstart": 14.2,
         "gdpend": 14.4,
         "inflation": 7,
@@ -130,11 +130,11 @@ data=[
         "intervation": "Bush launched the so-called “war on terror” after the 9-11 attacks on the World Trade Center. The US led the NATO invasion of Afghanistan. During his second term, in 2003, Bush declared war on Iraq, claiming the country was producing weapons of mass destruction."
     },
     {
-        "name": "BARACK OBAMA <br>\n(2009-2012)",
+        "name": "BARACK OBAMA <br>\n(2009-2013)",
         "startyear": 2009,
         "endyear": 2012,
         "populationstart": 307,
-        "populartionend": 314,
+        "populartionend": 316,
         "gdpstart": 14.4,
         "gdpend": 15.3,
         "inflation": 7,
