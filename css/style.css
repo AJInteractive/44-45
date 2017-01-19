@@ -218,10 +218,10 @@ ul{
 }
 
 h6 {
-    color: #000000;
+    color: #ff6600 !important;
     font-size: 1.5em;
     font-family:Georgia-Italic;
-    font-weight:900;
+    font-weight:100;
 }
 
 /*#names.fixed{
