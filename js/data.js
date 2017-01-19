@@ -2,7 +2,7 @@ data=[
     {
         "name": "GEORGE H. W. BUSH <br>\n(1989-1993)",
         "startyear": 1989,
-        "endyear": 1992,
+        "endyear": 1993,
         "populationstart": 247,
         "populartionend": 260,
         "gdpstart": 8.78,
@@ -27,7 +27,7 @@ data=[
     {
         "name": "BILL CLINTON <br>\n(1993-1997)",
         "startyear": 1993,
-        "endyear": 1996,
+        "endyear": 1997,
         "populationstart": 260,
         "populartionend": 273,
         "gdpstart": 9.52,
@@ -52,7 +52,7 @@ data=[
     {
         "name": "BILL CLINTON <br>\n(1997-2001)",
         "startyear": 1997,
-        "endyear": 2000,
+        "endyear": 2001,
         "populationstart": 273,
         "populartionend": 285,
         "gdpstart": 11.03,
@@ -77,7 +77,7 @@ data=[
     {
         "name": "GEORGE W. BUSH <br>\n(2001-2005)",
         "startyear": 2001,
-        "endyear": 2004,
+        "endyear": 2005,
         "populationstart": 285,
         "populartionend": 295,
         "gdpstart": 12.68,
@@ -104,7 +104,7 @@ data=[
     {
         "name": "GEORGE W. BUSH <br>\n(2005-2009)",
         "startyear": 2005,
-        "endyear": 2008,
+        "endyear": 2009,
         "populationstart": 295,
         "populartionend": 307,
         "gdpstart": 14.2,
@@ -132,7 +132,7 @@ data=[
     {
         "name": "BARACK OBAMA <br>\n(2009-2013)",
         "startyear": 2009,
-        "endyear": 2012,
+        "endyear": 2013,
         "populationstart": 307,
         "populartionend": 316,
         "gdpstart": 14.4,
@@ -158,9 +158,9 @@ data=[
         "intervation": "Under Obama, the US formally ended its combat mission in Iraq in August 2010.  In 2009, 30,000 more military personnel were deployed to Afghanistan in an attempt to bolster the US presence in the country. In a special operation, US Navy SEALS infiltrated a compound in Pakistan, killing Osama bin Laden. During his second term, Obama ordered air strikes on the Libyan government’s air defence facilities in 2011, enforcing a no-fly-zone. In 2014, Obama authorised airstrikes against ISIL, also known as ISIS, inside Syria and launched a programme to train and arm rebels fighting the group and Syrian government."
     },
     {
-        "name": "BARACK OBAMA <br>\n(2013-2016)",
+        "name": "BARACK OBAMA <br>\n(2013-2017)",
         "startyear": 2013,
-        "endyear": 2016,
+        "endyear": 2017,
         "populationstart": 316,
         "populartionend": 324,
         "gdpstart": 15.2,
